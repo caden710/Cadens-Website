@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: 'Inter', serif;
+}
+nav {
+    background-color: darkred;
+    border-radius: 0% 0% 10% 10%;
+    display: flex;
+    justify-content: right;
+}
+nav a {
+    color: gold;
+    padding: 10px 15px;
+}
+nav a:hover {
+    color: black;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: darkred;
+    display: flex;
+    border-radius: 10% 10% 0% 0%;
+    justify-content: center;
+}
+footer a{
+    color: gold;
+    padding: 10px 15px;
+}
+footer a:hover{
+    color: black;
+}
+.headline {
+    background-color:gold;
+    padding: 10px;
+    font-size: 20px;
+    color: darkslategrey;
+}
+.headline h1 {
+    text-align: center;
+}
+.headline h2 {
+    text-align: center;
+}
+.dog {
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    width: 100px;
+}
+.cat {
+    position: absolute;
+    top: 80px;
+    left:10px;
+    width: 100px;
+    border-radius: 20% 20% 20% 20%;
+}
+.info {
+    font-family: 'Merriweather';
+    font-size: 15px;
+    color: darkslategray;
+}
+.info a {
+    color:darkblue;
+    text-decoration: none;
+}
+.info a:hover {
+    color:darkcyan;
+}
+
+.me {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info h2 {
+    text-align: center;
+}
+.info p {
+    text-align: center;
+}
+.card {
+    box-shadow: 0px 5px 5px 0px gray;
+    border-radius: 5px;
+    width: 50%;
+    transition: 0.3s;
+}
+.card img {
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+}
+.card:hover {
+    box-shadow: 0px 12px 12px 0px darkgray;
+}
+.card h3 {
+    padding-left: 10px;
+}
+.card ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card dl {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+}
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.card form {
+    display: flex;
+    flex-direction: column;
+    
+}
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
